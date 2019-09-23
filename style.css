@@ -88,7 +88,40 @@ h1.logo
 	background-color:  #4a4a4a;
 	font-weight:900;
   }
-.rejestracja
+.start
 {
 	 float:left;
 }
+
+#registrationWindow
+{
+		margin: 0 auto;
+		width: 500px;
+}
+
+.rejestracja
+{
+	width: 400px;
+	font-size:  20px;
+	display: inline-block;
+}
+.wyplenienieRefestracja
+{
+	padding :5px;
+}
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=date]
+ {
+	width: 300px;
+	color:#666;
+	border: 2px solid #d8d8d8;
+	border-radius: 5px;
+	font-size: 20px;
+	padding :5px;
+	box-sizing: border-box;
+	outline: none;
+	display: inline-block;
+	background-color:  #f9f9f9;
+ }
