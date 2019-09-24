@@ -155,6 +155,12 @@
       "css": "sort-number-down",
       "code": 61795,
       "src": "fontawesome"
+    },
+    {
+      "uid": "d7271d490b71df4311e32cdacae8b331",
+      "css": "home",
+      "code": 59407,
+      "src": "fontawesome"
     }
   ]
 }
