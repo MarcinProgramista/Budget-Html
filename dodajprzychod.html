@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<title>Budżet osobisty</title>
+	<meta name="description" content="Porowadzenie budżetu osobistego wydatków o przychodów" />
+	<meta name="keywords" content="wydatki, budżet osobisty, przychody, rachunek, prąd, gaz, czynsz" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/fontello.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+	
+</head>
+
+<body>
+	<header>	
+		<h1 class="logo"><i class="icon-wallet"> </i>  Personal Budget</h1>	
+		<div id="cytat"> <i>"Nie mów mi, jakie są twoje priorytety. Pokaż mi, na co wydajesz pieniądze, a sam ci powiem, gdzie one są" - JAMES W. FRICK</i>	</div>
+	</header>
+	
+	<main>
+		<article>		
+			<nav>
+				<ol>
+				<li> <a href="#"> <i class="icon-home"></i> Strona główna</a></li>
+				<li><a href="#"><div id="dodajPrzychod"><i class="icon-dollar"></i> Dodaj przychód </div></a></li>
+				<li><a href="#"><i class="icon-shopping-basket"></i> Dodaj wydatek</a></li>
+				<li><a href="#"><i class="icon-chart-pie"></i> Przeglądaj bilans</a></li>
+				<li><a href="#"><i class="icon-cog"></i> Ustawienia</a></li>
+				<li><a href="#"><i class="icon-logout"></i> Wyloguj się</a></li>
+			    <li><a href="#">				<div class="zalogowany"><i class="icon-lock"></i> Zalogowany jako: Marcin </div></a></li>
+			</ol>
+			</nav>
+			<form>
+				<h2 class="logo">Dodaj przychód</h2>
+				<div id="registrationWindow">
+					 <div class="wyplenienieRejestracja"> 
+						<div class="ikona"><i class="icon-money"></i></div>  <input type="text" name="kowta" placeholder="Kwota" onfocus="this.placeholder=''" onblur="this.placeholder='login'"/>
+					</div>	
+					<br></br>
+					<div class="wyplenienieRejestracja"> 
+						 <div class="ikona"><i class="icon-calendar"></i></div>  <input type="date" name="data" placeholder="data" onfocus="this.placeholder=''" onblur="this.placeholder='e-mail'">
+					</div>	
+					<br></br>
+					<div class="wyplenienieRejestracja">
+						<select id="rodzajPrzychodu" name="rodzajPrzychodu" >		
+							<option value="w">Wynagrodzenie</option>
+							<option value="b" selected>Odsetki bankowe</option>
+							<option value="e">Sprzedaż na allegro</option>
+							<option value="h">Inne</option>	 
+						</select>
+					</div>
+					<br></br>
+					<div class="wyplenienieRejestracja">
+						 <div class="ikona"><i class="icon-pencil"></i></div>  <input type="text" name="komentarz" placeholder="komentarz" onfocus="this.placeholder=''" onblur="this.placeholder='komentarz'"/>
+					</div>
+					<br></br>
+					<div style="clear:both;"></div>
+					<div id="buttonWindow">
+						<div class="dodajPrzychodDodajAnulujPrzycisk"> <input type="submit" value="Dodaj"></div>
+						<div class="dodajPrzychodDodajAnulujPrzycisk"> <input type="submit" value="Anuluj"></div>			
+					</div>
+				</div>
+			</form>
+		</article>	
+	</main>
+</body>
+</html>
