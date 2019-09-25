@@ -102,6 +102,10 @@ h2.logo
 	 float:left;
 }
 
+.dodajPrzychodDodajAnulujPrzycisk
+{
+	 width: 50px;
+}
 #registrationWindow
 {
 		margin: 0 auto;
@@ -117,11 +121,11 @@ h2.logo
 }
 .ikona
 {
-	width: 45px;
+	width: 30px;
 	display:inline-block;
 	background-color: #e0e0e0;
 	border-right:1px solid #4a4a4a;
-	padding:10px;
+	padding:5px;
 }
 .wyplenienieRejestracja
 {
@@ -134,22 +138,25 @@ h2.logo
 
 .zalogowany:hover
 {
-	width: 400px;
+	width: 300px;
 	background-color:  #f9f9f9;
 	font-weight: 700;
 	height: 40px;
+	border-bottom: 3px solid  #4a4a4a;
 }
 
 .zalogowany
 {
-	width: 400px;
+	width: 300px;
 	background-color:  #f9f9f9;
 	font-weight: 700;
 	height: 40px;
+	border-bottom: 3px solid  #4a4a4a;
 }
 
 input[type=email],
 input[type=password],
+input[type=date],
 input[type=text]
  {
 	 background-color :transparent;
@@ -159,7 +166,24 @@ input[type=text]
 	width: 300px;
 	font-size:  20px;
 	border:0;
+	color: #4a4a4a;
  }
+ 
+ #rodzajPrzychodu
+ {
+	  background-color :transparent;
+     border: 0;
+	 outline: none;
+	 background-color: #f9f9f9;
+	width: 300px;
+	font-size:  20px;
+	border:0;
+	color: #4a4a4a;
+		padding:5px;
+	width: 350px;
+ }
+ 
+
  
 nav
 {
@@ -197,4 +221,14 @@ ol  > li:hover
 {
 	background-color: #e0e0e0;
 	font-weight: 700;
+	border-bottom: 3px solid  #4a4a4a;
+}
+
+#dodajPrzychod
+{
+	background-color: #e0e0e0;
+	font-weight: 700;
+	height: 40px;
+	border-bottom: 3px solid  #4a4a4a;
+
 }
