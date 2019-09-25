@@ -230,5 +230,61 @@ ol  > li:hover
 	font-weight: 700;
 	height: 40px;
 	border-bottom: 3px solid  #4a4a4a;
+}
 
+.dropdown {
+  float: left;
+  overflow: hidden;
+  width: 350px;
+  
+}
+.kategoria
+{
+	 font-size: 20px;
+	float: left;
+	text-align: left;
+	 min-width: 310px;
+	 margin-left: 5px;
+	padding-top:5px;
+}
+
+.icon-sort-down
+{
+	text-align: right;
+}
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: #4a4a4a;
+  height: 40px;
+  background-color : #e0e0e0;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 310px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  font-size:16px;
+  color: black;
+  padding: 8px 12px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }

@@ -33,10 +33,10 @@
 			</ol>
 			</nav>
 			<form>
-				<h2 class="logo">Dodaj przychód</h2>
+				<h2 class="logo">Dodaj wydatek</h2>
 				<div id="registrationWindow">
 					 <div class="wyplenienieRejestracja"> 
-						<div class="ikona"><i class="icon-money"></i></div>  <input type="text" name="kowta" placeholder="Kwota" onfocus="this.placeholder=''" onblur="this.placeholder='Kwota'"/>
+						<div class="ikona"><i class="icon-money"></i></div>  <input type="text" name="kowta" placeholder="Kwota" onfocus="this.placeholder=''" onblur="this.placeholder='login'"/>
 					</div>	
 					<br></br>
 					<div class="wyplenienieRejestracja"> 
@@ -44,19 +44,16 @@
 					</div>	
 					<br></br>
 					<div class="wyplenienieRejestracja">
-						<div class="dropdown"> <div class="kategoria">&nbsp;&nbsp;Wynagrodzenie </div>
-							<button class="dropbtn"> <i class="icon-sort-down"></i> </button>
-							<div class="dropdown-content">
-								<a href="#"> <i class="icon-check"></i>Wynagrodzenie</a>
-								<a href="#">&nbsp; &nbsp;&nbsp;&nbsp;Odsetki bankowe</a>
-								<a href="#"> &nbsp; &nbsp;&nbsp;&nbsp;Sprzedaż na allegro</a>
-								<a href="#"> &nbsp; &nbsp;&nbsp;&nbsp;Inne</a>
-							</div>
-						</div> 
+						<select id="rodzajPrzychodu" name="rodzajPrzychodu" >		
+						    <option  value="w" selected> <i class="icon-home"> Wynagrodzenie</i></option>
+							<option value="b" >Odsetki bankowe</option>
+							<option value="e">Sprzedaż na allegro</option>
+							<option value="h">Inne</option>	 
+						</select>
 					</div>
 					<br></br>
 					<div class="wyplenienieRejestracja">
-						 <div class="ikona"><i class="icon-pencil"></i></div>  <input type="text" name="komentarz" placeholder="&nbsp;Komentarz" onfocus="this.placeholder=''" onblur="this.placeholder='Komentarz'"/>
+						 <div class="ikona"><i class="icon-pencil"></i></div>  <input type="text" name="komentarz" placeholder="komentarz" onfocus="this.placeholder=''" onblur="this.placeholder='komentarz'"/>
 					</div>
 					<br></br>
 					<div style="clear:both;"></div>
